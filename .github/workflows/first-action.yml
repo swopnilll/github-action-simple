@@ -15,8 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Greetings
-      - run: echo "Hello World"
+        run: echo "Hello World"
       - name: Print Goodbye
-      - run: echo "See you soon"
+        run: echo "See you soon"
   
  
