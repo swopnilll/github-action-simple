@@ -1,0 +1,22 @@
+# Simple workflow to get started with GitHub Actions
+# It all starts with giving your workflow a name.
+
+name: First Workflow
+
+# After giving a name, we should define when our workflow should be executed.
+
+# Controls when the workflow will run. After On, you define events or events that should trigger this workflow to run.
+# workflow_dispatch -> Allows you to run this workflow manually from the Actions tab
+on: workflow_dispatch
+ 
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greetings
+      - run: echo "Hello World"
+      - name: Print Goodbye
+      - run: echo "See you soon"
+  
+ 
